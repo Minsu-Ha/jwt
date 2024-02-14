@@ -12,7 +12,7 @@ spring:
       hibernate:
         format_sql: true
     database: oracle
-    database-platform: org.hibernate.dialect.Oracle10gDialect
+    database-platform: org.hibernate.dialect.OracleDialect
 
 server:
   port: 80
